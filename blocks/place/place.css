@@ -1,0 +1,11 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, auto-fit);
+  grid-template-rows: repeat(2, auto-fit);
+  grid-template-areas: 
+  "title link"
+  "image text";
+  margin: 0;
+  padding: 0;
+  gap: 48px 40px;
+}

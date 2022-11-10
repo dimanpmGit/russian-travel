@@ -1,0 +1,32 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 740px;
+  background-image: url(../../../images/to-baikal-by-dogs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  box-sizing: border-box;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity .3s ease;
+}
+
+.cover__link:hover::before {
+  opacity: .8;
+}

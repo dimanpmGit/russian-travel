@@ -1,0 +1,7 @@
+.place__link-wrapper {
+  grid-area: link;
+  align-self: end;
+  justify-self: start;
+  margin: 0;
+  padding: 0;
+}

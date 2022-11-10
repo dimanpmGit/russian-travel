@@ -1,0 +1,9 @@
+.statistics__item {
+  font-family: 'Inter Bold';
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.statistics__item span {
+  font-family: 'Inter';
+}

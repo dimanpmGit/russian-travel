@@ -1,0 +1,8 @@
+.header__image {
+  margin: 64px 0 0;
+  padding: 0;
+  width: 984px;
+  height: 615px;
+  object-fit: cover;
+  object-position: center center;
+}

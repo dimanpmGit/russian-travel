@@ -1,0 +1,9 @@
+.pictures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  grid-template-rows: repeat(auto-fit, 213px);
+  justify-content: center;
+  gap: 16px;
+  margin: 92px 0;
+  box-sizing: border-box;
+}
