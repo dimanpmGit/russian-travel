@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
   .footer {
     margin: 0 16px 0;
     padding: 64px 0 24px;
