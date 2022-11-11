@@ -29,3 +29,11 @@
     margin: 88px 24px 0;
   }
 }
+
+@media (max-width: 320px) {
+  .pictures-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 64px 16px 0;
+  }
+}

@@ -17,3 +17,9 @@
     margin: 0 24px 0;
   }  
 }
+
+@media screen and (max-width: 320px) {
+  .statistics {
+    margin: 0 16px 0;
+  }  
+}
