@@ -38,3 +38,10 @@
     min-height: 640px;
   }  
 }
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    width: 100%;
+    min-height: 480px;
+  }  
+}

@@ -1,6 +1,8 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+ /* grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));*/
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   grid-template-areas: 
   "title link"
@@ -13,5 +15,11 @@
 @media screen and (max-width: 1024px) {
   .place {
     gap: 48px 32px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
   }  
 }

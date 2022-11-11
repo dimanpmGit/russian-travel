@@ -15,5 +15,17 @@
     grid-template-rows: repeat(4, minmax(min-content, calc(100%/213*225)));
     justify-content: center;
     gap: 14px;
+    margin: 92px 48px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .pictures-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, calc(100%/284*352)));
+    grid-template-rows: repeat(6, minmax(min-content, calc(100%/213*264)));
+    justify-content: center;
+    gap: 16px;
+    margin: 88px 24px 0;
   }
 }
