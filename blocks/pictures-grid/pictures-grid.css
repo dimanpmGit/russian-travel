@@ -1,9 +1,19 @@
 .pictures-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);
-  grid-template-rows: repeat(auto-fit, 213px);
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
   justify-content: center;
   gap: 16px;
   margin: 92px 0;
   box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .pictures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, calc(100%/284*300)));
+    grid-template-rows: repeat(4, minmax(min-content, calc(100%/213*225)));
+    justify-content: center;
+    gap: 14px;
+  }
 }
