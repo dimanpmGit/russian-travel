@@ -1,0 +1,16 @@
+.intro__figure {
+  margin: 64px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__figure {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__figure {
+    margin-top: 40px;
+  }
+}

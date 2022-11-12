@@ -1,17 +1,13 @@
 .statistics__text {
   font-size: 16px;
-  line-height: 163%;
-  white-space: pre-line;
+  line-height: 160%;
+  max-width: 690px;
   margin: 40px 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 320px) {
   .statistics__text {
-    font-size: 16px;
-    line-height: 163%;
-    white-space: normal;
-    margin: 40px 0 0;
-    padding: 0;
+    line-height: 162%;
   }
 }

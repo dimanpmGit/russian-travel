@@ -14,15 +14,17 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 0 24px 0;
-    padding: 88px 0 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 740px) {
   .footer {
-    margin: 0 16px 0;
-    padding: 64px 0 24px;
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 64px;
     flex-direction: column;
     align-items: stretch;
     row-gap: 48px;
