@@ -1,5 +1,7 @@
 .places {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, max-content);
   margin: 92px 100px 0;
   padding: 0;
   gap: 80px;

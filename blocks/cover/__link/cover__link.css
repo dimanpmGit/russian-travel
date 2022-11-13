@@ -27,6 +27,8 @@
   opacity: .3;
   z-index: -1;
   transition: opacity .3s ease;
+  min-height: 740px; 
+  width: 100%; 
 }
 
 .cover__link:hover::before {

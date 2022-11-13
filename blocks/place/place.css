@@ -1,9 +1,6 @@
 .place {
-  min-width: 188px;
   display: grid;
-  grid-template-columns: 47% 53%;
-  /*grid-template-rows: repeat(2, minmax(min-content, max-content));*/
-  grid-template-rows: repeat(2, auto-fit);
+  grid-template-columns: max-content max-content;
   grid-template-areas: 
   "title link"
   "image text";

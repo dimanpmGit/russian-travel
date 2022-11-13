@@ -4,6 +4,7 @@
   margin: 0 32px 0 0;
   padding: 0;
   max-width: 484px;
+  width: calc(50vw - 148px - 32px);
 }
 
 .place__text:not(:last-child) {
@@ -12,14 +13,14 @@
 
 @media screen and (max-width: 1024px) {
   .place__text {
-    max-width: 456px;
     margin-right: 0;
+    width: calc(50vw - 48px - 24px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__text {
-    max-width: 352px;
+    width: calc(50vw - 32px - 2px);
     font-size: 16px;
   }
   .place__text:not(:last-child) {
@@ -30,14 +31,13 @@
 @media screen and (max-width: 480px) {
   .place__text {
     font-size: 10px;
-    max-width: 120px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__text {
-    max-width: 288px;
-    line-height: 162%;
+    width: 100%;
+    line-height: 163%;
     font-size: 16px;
   }
 }

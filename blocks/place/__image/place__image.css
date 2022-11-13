@@ -1,12 +1,27 @@
 .place__image {
   grid-area: image;
-  width: 100%;
+  max-width: 460px;
   margin: 0;
   padding: 0;
+  object-fit: cover;
+  object-position: bottom center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 101%;
+    width: calc(50vw - 48px - 24px);
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: calc(50vw - 48px + 4px);
+  }  
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 100%;
   }  
 }

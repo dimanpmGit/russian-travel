@@ -4,7 +4,7 @@
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   justify-content: center;
   gap: 16px;
-  margin: 92px 0;
+  margin: 92px 0 0;
   box-sizing: border-box;
 }
 
@@ -15,7 +15,8 @@
     grid-template-rows: repeat(4, minmax(min-content, calc(100%/213*225)));
     justify-content: center;
     gap: 14px;
-    margin: 92px 48px 0;
+    margin-right: 48px;
+    margin-left: 48px;
   }
 }
 
