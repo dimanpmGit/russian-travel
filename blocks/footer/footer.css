@@ -26,7 +26,7 @@
     margin-left: 16px;
     padding-top: 64px;
     flex-direction: column;
-    align-items: stretch;
+    align-items: start;
     row-gap: 48px;
   }
 }

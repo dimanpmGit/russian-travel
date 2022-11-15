@@ -10,7 +10,7 @@
   background-position: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .logo {
     width: 142px;
     height: 42px;

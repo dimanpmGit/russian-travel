@@ -4,7 +4,7 @@
   margin-top: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .menu__item_place_header {
     font-size: 18px;
     line-height: 20px;

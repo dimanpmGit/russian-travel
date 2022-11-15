@@ -8,10 +8,17 @@
   padding: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .intro__subtitle {
-    font-size: 20px;
-    line-height: 24px;
+    max-width: 496px;  
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .intro__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 288px;
   }
 }
 
@@ -20,6 +27,5 @@
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
-    max-width: 288px;
   }
 }

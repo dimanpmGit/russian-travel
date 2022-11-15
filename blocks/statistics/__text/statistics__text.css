@@ -1,21 +1,21 @@
 .statistics__text {
   font-size: 16px;
   line-height: 160%;
-  max-width: 690px;
+  /*max-width: 690px;*/
   margin: 40px 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .statistics__text {
-    max-width: 720px;
+    /*max-width: 720px;*/
   }
 }
 
 @media screen and (max-width: 320px) {
   .statistics__text {
     line-height: 162%;
-    max-width: 320px;
+    /*max-width: 320px;*/
     width: 100%;
   }
 }

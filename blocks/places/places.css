@@ -1,7 +1,8 @@
 .places {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, max-content);
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  grid-auto-flow: rows;
   margin: 92px 100px 0;
   padding: 0;
   gap: 80px;
@@ -17,7 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    margin-top: 88px;
+    margin-top: 90px;
     margin-right: 24px;
     margin-left: 24px;
     gap: 72px;
