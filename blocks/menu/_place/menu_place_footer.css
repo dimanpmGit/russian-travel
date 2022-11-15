@@ -1,5 +1,5 @@
 @media screen and (max-width: 740px) {
-  .menu__list_place_footer {
+  .menu_place_footer {
     display: flex;
     flex-direction: column;
     gap: 32px;
